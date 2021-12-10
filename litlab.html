@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <base href="./">
+    <title>LIT Lab | Final Project</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    
+    <!-- Compressed Styles -->
+    <link href="css/slides.min.css" rel="stylesheet" type="text/css">
+
+    
+    <!-- Fonts and Material Icons -->
+    <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Material+Icons&display=swap"/>
+    <style>
+        .slides { font-family: 'Inter', sans-serif; }
+    </style>
+     
+</head>
+<body class="slides scroll animated noPreload">
+<svg id="customSvgLibrary" xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+ <symbol id="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0, 0, 400,400"><g id="svgg"><path id="path0" d="M72.325 198.302 C 72.224 259.627,72.245 310.702,72.371 311.802 L 72.600 313.800 115.000 313.640 C 138.320 313.552,160.100 313.372,163.400 313.240 L 169.400 313.000 169.400 290.400 L 169.400 267.800 144.048 267.940 C 123.098 268.055,118.637 267.985,118.354 267.540 C 118.166 267.243,118.009 226.455,118.006 176.900 L 118.000 86.800 95.254 86.800 L 72.508 86.800 72.325 198.302 M220.594 87.190 C 175.490 87.326,138.365 87.574,138.094 87.742 C 137.712 87.978,137.600 93.157,137.600 110.662 L 137.600 133.277 202.300 133.138 L 267.000 133.000 267.200 223.400 L 267.400 313.800 290.000 313.800 L 312.600 313.800 312.701 223.300 L 312.802 132.800 323.301 132.794 C 329.075 132.791,334.027 132.644,334.303 132.468 C 334.700 132.216,334.785 127.369,334.703 109.574 L 334.600 87.000 318.600 86.972 C 309.800 86.956,265.697 87.055,220.594 87.190 M188.660 233.103 C 188.296 233.691,187.947 311.400,188.303 312.600 L 188.658 313.800 216.429 313.635 C 231.703 313.544,245.010 313.445,246.000 313.414 L 247.800 313.358 247.800 290.579 L 247.800 267.800 241.217 267.690 C 236.565 267.612,234.543 267.436,234.323 267.090 C 234.152 266.820,234.009 258.995,234.006 249.700 L 234.000 232.800 211.424 232.800 C 199.007 232.800,188.763 232.936,188.660 233.103 " stroke="none" fill="#f8f9fa" fill-rule="evenodd"></path><path id="path1" d="M0.000 200.000 L 0.000 400.000 200.000 400.000 L 400.000 400.000 400.000 200.000 L 400.000 0.000 200.000 0.000 L 0.000 0.000 0.000 200.000 M118.409 86.800 C 118.645 87.173,118.790 121.387,118.794 177.362 L 118.800 267.323 143.953 267.095 C 162.211 266.930,169.229 266.989,169.553 267.313 C 170.234 267.994,170.182 312.956,169.500 313.504 C 169.177 313.764,153.494 314.016,125.200 314.217 C 101.110 314.388,79.420 314.551,77.000 314.580 C 74.580 314.609,72.375 314.468,72.100 314.267 C 71.243 313.641,71.380 87.477,72.238 86.619 C 73.175 85.682,117.813 85.857,118.409 86.800 M335.020 86.677 C 335.803 87.460,335.900 131.940,335.120 132.720 C 334.771 133.069,331.724 133.200,323.920 133.200 L 313.200 133.200 313.200 223.757 C 313.200 303.835,313.131 314.341,312.601 314.544 C 311.171 315.093,267.320 314.826,266.855 314.266 C 266.521 313.864,266.375 290.023,266.301 223.636 L 266.200 133.553 228.200 133.576 C 207.300 133.589,178.550 133.715,164.310 133.857 C 143.707 134.062,138.296 134.012,137.810 133.609 C 137.000 132.936,136.874 88.086,137.680 87.280 C 138.047 86.913,148.541 86.786,182.180 86.742 C 206.391 86.710,247.440 86.562,273.400 86.413 C 340.086 86.029,334.348 86.005,335.020 86.677 M209.268 144.700 C 210.925 148.741,212.307 151.258,215.578 156.195 C 221.126 164.568,223.056 168.869,224.009 174.988 C 224.248 176.522,224.500 177.833,224.568 177.902 C 225.202 178.535,230.715 167.059,232.461 161.473 C 234.246 155.760,234.516 155.842,236.169 162.600 C 236.760 165.020,238.696 171.230,240.471 176.400 C 248.974 201.175,248.037 207.974,234.243 221.578 C 230.490 225.280,230.290 225.084,232.116 219.491 C 234.542 212.060,234.981 205.494,233.512 198.600 C 232.854 195.515,232.599 195.595,230.225 199.638 C 228.110 203.238,224.325 207.321,223.288 207.121 C 222.793 207.026,222.633 206.370,222.551 204.101 C 222.306 197.294,219.681 191.643,214.233 186.200 L 210.630 182.600 210.378 185.800 C 210.075 189.639,209.971 190.074,207.892 196.200 C 206.673 199.790,206.216 201.834,206.081 204.308 C 205.981 206.127,205.736 207.716,205.537 207.839 C 204.233 208.645,198.405 203.397,194.600 197.989 C 191.474 193.547,191.642 193.468,190.120 200.081 C 187.744 210.406,187.965 215.372,191.062 221.266 C 191.859 222.782,192.404 224.129,192.274 224.260 C 191.800 224.734,188.370 222.322,185.497 219.494 C 173.776 207.959,173.266 192.943,183.686 166.200 C 186.491 159.000,186.861 158.633,187.619 162.300 C 188.232 165.269,189.872 168.467,192.120 171.080 C 193.105 172.224,194.305 173.799,194.788 174.580 C 195.270 175.361,195.822 176.000,196.013 176.000 C 197.191 176.000,200.878 167.230,202.604 160.325 C 204.519 152.666,207.689 143.600,208.454 143.600 C 208.654 143.600,209.020 144.095,209.268 144.700 M234.557 233.033 C 234.691 233.381,234.800 241.226,234.800 250.467 L 234.800 267.269 240.995 266.981 C 245.728 266.761,247.332 266.812,247.795 267.196 C 248.448 267.738,248.738 312.470,248.094 313.445 C 247.887 313.757,240.907 313.970,224.600 314.161 C 189.130 314.577,188.356 314.572,187.954 313.945 C 187.574 313.350,187.476 233.988,187.854 233.004 C 188.215 232.063,234.196 232.092,234.557 233.033 " stroke="none" fill="#042c5c" fill-rule="evenodd"></path><path id="path2" d="M206.699 148.744 C 205.384 152.300,204.108 156.535,203.187 160.400 C 201.149 168.952,196.237 179.025,195.324 176.526 C 195.228 176.265,194.264 174.915,193.180 173.526 C 188.836 167.957,187.795 166.056,186.998 162.242 C 186.677 160.708,186.316 161.159,184.783 165.000 C 181.436 173.387,179.000 181.092,178.017 186.400 C 177.752 187.830,177.370 189.864,177.168 190.920 C 175.227 201.049,178.805 212.378,186.147 219.349 C 190.418 223.403,192.111 224.210,190.454 221.402 C 188.780 218.565,188.000 215.307,188.000 211.154 C 188.000 207.179,188.214 205.670,189.637 199.600 C 191.420 191.998,191.264 192.150,193.651 195.700 C 196.999 200.679,199.915 203.908,202.903 205.945 C 205.311 207.587,205.600 207.378,205.600 204.006 C 205.600 201.904,205.933 200.290,207.017 197.130 C 209.202 190.764,209.640 188.853,209.684 185.485 C 209.742 181.099,210.272 181.089,214.573 185.391 C 219.880 190.697,223.147 197.794,223.186 204.100 C 223.194 205.427,223.377 206.400,223.619 206.400 C 224.515 206.400,227.903 202.401,229.984 198.887 C 232.355 194.883,233.364 194.237,233.713 196.500 C 233.824 197.215,234.225 199.690,234.605 202.000 C 235.481 207.331,234.968 212.546,232.953 218.768 C 231.270 223.968,231.227 223.949,235.178 219.726 C 246.965 207.128,248.049 200.642,241.548 181.600 C 238.424 172.448,237.592 169.828,236.148 164.600 C 235.602 162.620,235.030 160.562,234.877 160.027 C 234.456 158.548,233.931 158.938,233.190 161.279 C 231.134 167.770,225.020 179.953,224.219 179.152 C 224.115 179.048,223.769 177.351,223.450 175.382 C 222.416 168.996,220.663 164.852,216.185 158.200 C 212.231 152.327,210.665 149.675,209.631 147.100 C 208.430 144.110,208.408 144.122,206.699 148.744 " stroke="none" fill="#e8c33b" fill-rule="evenodd"></path><path id="path3" d="M72.400 86.381 C 71.688 86.844,71.260 313.309,71.970 314.164 C 72.217 314.461,74.032 314.597,77.273 314.561 C 79.983 314.531,101.730 314.371,125.600 314.206 C 153.623 314.012,169.177 313.764,169.500 313.504 C 170.182 312.956,170.234 267.994,169.553 267.313 C 169.229 266.989,162.211 266.930,143.953 267.095 L 118.800 267.323 118.794 177.362 C 118.790 121.399,118.644 87.173,118.409 86.800 C 117.951 86.076,73.492 85.671,72.400 86.381 M273.400 86.413 C 247.440 86.562,206.391 86.710,182.180 86.742 C 148.541 86.786,138.047 86.913,137.680 87.280 C 136.874 88.086,137.000 132.936,137.810 133.609 C 138.296 134.012,143.707 134.062,164.310 133.857 C 178.550 133.715,207.300 133.589,228.200 133.576 L 266.200 133.553 266.301 223.636 C 266.373 288.113,266.526 313.870,266.839 314.247 C 267.295 314.796,311.180 315.089,312.578 314.553 C 313.138 314.338,313.200 305.277,313.200 223.757 L 313.200 133.200 323.626 133.200 C 330.048 133.200,334.350 133.041,334.826 132.786 C 335.870 132.227,336.057 87.714,335.020 86.677 C 334.348 86.005,340.086 86.029,273.400 86.413 M118.006 176.900 C 118.009 226.455,118.166 267.243,118.354 267.540 C 118.637 267.985,123.098 268.055,144.048 267.940 L 169.400 267.800 169.400 290.400 L 169.400 313.000 163.400 313.240 C 160.100 313.372,138.320 313.552,115.000 313.640 L 72.600 313.800 72.371 311.802 C 72.245 310.702,72.224 259.627,72.325 198.302 L 72.508 86.800 95.254 86.800 L 118.000 86.800 118.006 176.900 M334.703 109.574 C 334.785 127.369,334.700 132.216,334.303 132.468 C 334.027 132.644,329.075 132.791,323.301 132.794 L 312.802 132.800 312.701 223.300 L 312.600 313.800 290.000 313.800 L 267.400 313.800 267.200 223.400 L 267.000 133.000 202.300 133.138 L 137.600 133.277 137.600 110.662 C 137.600 93.157,137.712 87.978,138.094 87.742 C 138.525 87.476,274.726 86.894,318.600 86.972 L 334.600 87.000 334.703 109.574 M187.854 233.004 C 187.476 233.988,187.574 313.350,187.954 313.945 C 188.356 314.572,189.130 314.577,224.600 314.161 C 240.907 313.970,247.887 313.757,248.094 313.445 C 248.674 312.566,248.456 267.744,247.869 267.257 C 247.509 266.958,245.321 266.880,241.069 267.013 L 234.800 267.210 234.800 250.438 C 234.800 241.213,234.691 233.381,234.557 233.033 C 234.196 232.092,188.215 232.063,187.854 233.004 M234.006 249.700 C 234.009 258.995,234.152 266.820,234.323 267.090 C 234.543 267.436,236.565 267.612,241.217 267.690 L 247.800 267.800 247.800 290.579 L 247.800 313.358 246.000 313.414 C 245.010 313.445,231.703 313.544,216.429 313.635 L 188.658 313.800 188.303 312.600 C 187.947 311.400,188.296 233.691,188.660 233.103 C 188.763 232.936,199.007 232.800,211.424 232.800 L 234.000 232.800 234.006 249.700 " stroke="none" fill="#547392" fill-rule="evenodd"></path><path id="path4" d="M206.862 146.700 C 205.305 150.632,203.915 155.080,202.604 160.325 C 200.878 167.230,197.191 176.000,196.013 176.000 C 195.822 176.000,195.270 175.361,194.788 174.580 C 194.305 173.799,193.105 172.224,192.120 171.080 C 189.872 168.467,188.232 165.269,187.619 162.300 C 186.861 158.633,186.491 159.000,183.686 166.200 C 173.266 192.943,173.776 207.959,185.497 219.494 C 188.370 222.322,191.800 224.734,192.274 224.260 C 192.404 224.129,191.859 222.782,191.062 221.266 C 187.965 215.372,187.744 210.406,190.120 200.081 C 191.642 193.468,191.474 193.547,194.600 197.989 C 198.405 203.397,204.233 208.645,205.537 207.839 C 205.736 207.716,205.981 206.127,206.081 204.308 C 206.216 201.834,206.673 199.790,207.892 196.200 C 209.971 190.074,210.075 189.639,210.378 185.800 L 210.630 182.600 214.233 186.200 C 219.681 191.643,222.306 197.294,222.551 204.101 C 222.633 206.370,222.793 207.026,223.288 207.121 C 224.325 207.321,228.110 203.238,230.225 199.638 C 232.599 195.595,232.854 195.515,233.512 198.600 C 234.981 205.494,234.542 212.060,232.116 219.491 C 230.290 225.084,230.490 225.280,234.243 221.578 C 248.037 207.974,248.974 201.175,240.471 176.400 C 238.696 171.230,236.760 165.020,236.169 162.600 C 234.516 155.842,234.246 155.760,232.461 161.473 C 230.715 167.059,225.202 178.535,224.568 177.902 C 224.500 177.833,224.248 176.522,224.009 174.988 C 223.056 168.869,221.126 164.568,215.578 156.195 C 212.307 151.258,210.925 148.741,209.268 144.700 C 208.578 143.017,208.194 143.337,206.862 146.700 M209.631 147.100 C 210.665 149.675,212.231 152.327,216.185 158.200 C 220.663 164.852,222.416 168.996,223.450 175.382 C 223.769 177.351,224.115 179.048,224.219 179.152 C 225.020 179.953,231.134 167.770,233.190 161.279 C 233.931 158.938,234.456 158.548,234.877 160.027 C 235.030 160.562,235.602 162.620,236.148 164.600 C 237.592 169.828,238.424 172.448,241.548 181.600 C 248.049 200.642,246.965 207.128,235.178 219.726 C 231.227 223.949,231.270 223.968,232.953 218.768 C 234.968 212.546,235.481 207.331,234.605 202.000 C 234.225 199.690,233.824 197.215,233.713 196.500 C 233.364 194.237,232.355 194.883,229.984 198.887 C 227.903 202.401,224.515 206.400,223.619 206.400 C 223.377 206.400,223.194 205.427,223.186 204.100 C 223.147 197.794,219.880 190.697,214.573 185.391 C 210.272 181.089,209.742 181.099,209.684 185.485 C 209.640 188.853,209.202 190.764,207.017 197.130 C 205.933 200.290,205.600 201.904,205.600 204.006 C 205.600 207.378,205.311 207.587,202.903 205.945 C 199.915 203.908,196.999 200.679,193.651 195.700 C 191.264 192.150,191.420 191.998,189.637 199.600 C 188.214 205.670,188.000 207.179,188.000 211.154 C 188.000 215.307,188.780 218.565,190.454 221.402 C 192.111 224.210,190.418 223.403,186.147 219.349 C 178.805 212.378,175.227 201.049,177.168 190.920 C 177.370 189.864,177.752 187.830,178.017 186.400 C 179.000 181.092,181.436 173.387,184.783 165.000 C 186.316 161.159,186.677 160.708,186.998 162.242 C 187.795 166.056,188.836 167.957,193.180 173.526 C 194.264 174.915,195.228 176.265,195.324 176.526 C 196.237 179.025,201.149 168.952,203.187 160.400 C 204.599 154.474,207.852 144.800,208.432 144.800 C 208.583 144.800,209.123 145.835,209.631 147.100 " stroke="none" fill="#5e6952" fill-rule="evenodd"></path></g></symbol>
+
+
+  <symbol id="close" viewBox="0 0 30 30"><path d="M15 0c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15zm5.7 19.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4.3-4.3-4.3 4.3c-.2.2-.4.3-.7.3s-.5-.1-.7-.3c-.4-.4-.4-1 0-1.4l4.3-4.3-4.3-4.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4.3 4.3 4.3 4.3z"></path></symbol>
+
+  <symbol id="arrow-left" viewBox="0 0 29 56"><path d="M28.7.3c.4.4.4 1 0 1.4l-26.3 26.3 26.3 26.3c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0l-27-27c-.4-.4-.4-1 0-1.4l27-27c.3-.3 1-.4 1.4 0z"></path></symbol>
+  
+  <symbol id="arrow-right" viewBox="0 0 29 56"><path d="M.3 55.7c-.4-.4-.4-1 0-1.4l26.3-26.3-26.3-26.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l27 27c.4.4.4 1 0 1.4l-27 27c-.3.3-1 .4-1.4 0z"></path></symbol>
+
+  <symbol id="back" viewBox="0 0 20 20"><path d="M2.3 10.7l5 5c.4.4 1 .4 1.4 0s.4-1 0-1.4l-3.3-3.3h11.6c.6 0 1-.4 1-1s-.4-1-1-1h-11.6l3.3-3.3c.4-.4.4-1 0-1.4-.2-.2-.4-.3-.7-.3s-.5.1-.7.3l-5 5c-.2.2-.3.5-.3.7 0 .2.1.5.3.7z"></path></symbol>
+  
+  <symbol id="menu" viewBox="0 0 18 18"><path d="M16 5h-14c-.6 0-1-.4-1-1 0-.5.4-1 1-1h14c.5 0 1 .4 1 1s-.4 1-1 1zm-14 5h14c.5 0 1-.4 1-1 0-.5-.4-1-1-1h-14c-.6 0-1 .4-1 1s.4 1 1 1zm14 3h-14c-.5 0-1 .4-1 1 0 .5.4 1 1 1h14c.5 0 1-.4 1-1s-.4-1-1-1z"></path></symbol>
+  
+  <symbol id="share" viewBox="0 0 18 18"><path d="M16 8c-.6 0-1 .4-1 1v6h-12v-6c0-.6-.4-1-1-1s-1 .4-1 1v6c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-6c0-.6-.4-1-1-1zm-2.3-2.3c.4-.4.4-1 0-1.4l-4-4c-.4-.4-1-.4-1.4 0l-4 4c-.4.4-.4 1 0 1.4s1 .4 1.4 0l2.3-2.3v7.6c0 .6.4 1 1 1s1-.4 1-1v-7.6l2.3 2.3c.4.4 1 .4 1.4 0z"></path></symbol>
+
+  <symbol id="arrow-down" viewBox="0 0 24 24"><path d="M12 18c-.2 0-.5-.1-.7-.3l-11-10c-.4-.4-.4-1-.1-1.4.4-.4 1-.4 1.4-.1l10.4 9.4 10.3-9.4c.4-.4 1-.3 1.4.1.4.4.3 1-.1 1.4l-11 10c-.1.2-.4.3-.6.3z"></path></symbol>
+  
+  <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M11.9 5.9c.2 0 .5.1.7.3l11 10c.4.4.4 1 .1 1.4-.4.4-1 .4-1.4.1l-10.4-9.4-10.3 9.4c-.4.4-1 .3-1.4-.1-.4-.4-.3-1 .1-1.4l11-10c.1-.2.4-.3.6-.3z"></path></symbol>
+  
+  <symbol id="arrow-top" viewBox="0 0 18 18"><path d="M15.7 7.3l-6-6c-.4-.4-1-.4-1.4 0l-6 6c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0l4.3-4.3v11.6c0 .6.4 1 1 1s1-.4 1-1v-11.6l4.3 4.3c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4z"></path></symbol>
+  
+  <symbol id="play" viewBox="0 0 30 30"><path d="M7 30v-30l22 15z"></path></symbol>
+  
+  <symbol id="chat" viewBox="0 0 18 18"><path d="M5,17c-0.2,0-0.3,0-0.4-0.1C4.2,16.7,4,16.4,4,16v-2H2c-1.1,0-2-0.9-2-2V3c0-1.1,0.9-2,2-2h14c1.1,0,2,0.9,2,2v9 c0,1.1-0.9,2-2,2H9.3l-3.7,2.8C5.4,16.9,5.2,17,5,17z M2,12h3.5C5.8,12,6,12.2,6,12.5V14l2.4-1.8C8.6,12.1,8.8,12,9,12h7V3H2V12z M13,7H5C4.4,7,4,6.6,4,6s0.4-1,1-1h8c0.6,0,1,0.4,1,1S13.6,7,13,7z M13,10H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h8c0.6,0,1,0.4,1,1 S13.6,10,13,10z"></path></symbol>
+
+  <symbol id="mail" viewBox="0 0 18 18"><path d="M16 2h-14c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-10c0-1.1-.9-2-2-2zm0 2v.5l-7 4.3-7-4.4v-.4h14zm-14 10v-7.2l6.5 4c.1.1.3.2.5.2s.4-.1.5-.2l6.5-4v7.2h-14z"></path></symbol>
+  
+  <!-- social -->
+  <symbol id="apple" viewBox="-1 1 24 24"><path d="M17.6 13.8c0-3 2.5-4.5 2.6-4.6-1.4-2.1-3.6-2.3-4.4-2.4-1.9-.2-3.6 1.1-4.6 1.1-.9 0-2.4-1.1-4-1-2 0-3.9 1.2-5 3-2.1 3.7-.5 9.1 1.5 12.1 1 1.5 2.2 3.1 3.8 3 1.5-.1 2.1-1 3.9-1s2.4 1 4 1 2.7-1.5 3.7-2.9c1.2-1.7 1.6-3.3 1.7-3.4-.1-.1-3.2-1.3-3.2-4.9zm-3.1-9c.8-1 1.4-2.4 1.2-3.8-1.2 0-2.7.8-3.5 1.8-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.6-1.7z"></path></symbol>
+
+  <symbol id="dribbble" viewBox="0 0 24 24"><path d="M12 0c-6.7 0-12 5.3-12 12s5.3 12 12 12 12-5.3 12-12-5.3-12-12-12zm7.9 5.7c1.3 1.7 2.1 3.9 2.3 6.1-.4-.1-2.4-.4-4.7-.4-.8 0-1.5 0-2.3.1 0-.1-.1-.3-.3-.5l-.7-1.5c3.7-1.4 5.3-3.4 5.7-3.8zm-7.9-3.8c2.5 0 4.9.9 6.7 2.5-.3.4-1.9 2.3-5.2 3.6-1.6-2.9-3.3-5.3-3.7-5.9.6-.1 1.4-.2 2.2-.2zm-4.4 1c.4.6 2.1 3 3.7 5.8-4.4 1.2-8.2 1.2-9.2 1.2h-.1c.8-3.1 2.9-5.6 5.6-7zm-5.7 9.1v-.3h.3c1.2 0 5.6-.1 10.1-1.5l.8 1.6c-.1 0-.3 0-.4.1-5.1 1.6-7.9 6-8.3 6.7-1.6-1.7-2.5-4.1-2.5-6.6zm10.1 10.1c-2.3 0-4.4-.8-6.1-2.1.3-.5 2.4-4.4 7.9-6.3 1.3 3.6 2 6.7 2.1 7.6-1.2.6-2.6.8-3.9.8zm5.7-1.8c-.1-.8-.7-3.6-2-7.1.7-.1 1.3-.1 2-.1 2.1 0 3.7.4 4.1.5-.3 2.8-1.8 5.2-4.1 6.7z"></path></symbol>
+
+  <symbol id="facebook" viewBox="0 0 24 24"><path d="M24 1.3v21.3c0 .7-.6 1.3-1.3 1.3h-6.1v-9.3h3.1l.5-3.6h-3.6v-2.2c0-1.1.3-1.8 1.8-1.8h1.9v-3.2c-.3 0-1.5-.1-2.8-.1-2.8 0-4.7 1.7-4.7 4.8v2.7h-3.1v3.6h3.1v9.2h-11.5c-.7 0-1.3-.6-1.3-1.3v-21.4c0-.7.6-1.3 1.3-1.3h21.3c.8 0 1.4.6 1.4 1.3z"></path></symbol>
+
+  <symbol id="instagram" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.3"></circle><path d="M13,0H7C2.2,0,0,2.2,0,7v6c0,4.8,2.1,7,7,7h6c4.8,0,7-2.2,7-7V7C20,2.2,17.9,0,13,0z M10,15.1c-2.8,0-5.1-2.3-5.1-5.1 S7.2,4.9,10,4.9s5.1,2.3,5.1,5.1S12.8,15.1,10,15.1z M15.3,5.9c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2 C16.5,5.3,16,5.9,15.3,5.9z"></path></symbol>
+  
+  <symbol id="linkedin" viewBox="0 0 24 24"><path d="M5.9 21.9h-4.7v-14.2h4.7v14.2zm-2.3-16.1c-1.6 0-2.6-1.1-2.6-2.5s1-2.5 2.7-2.5c1.6 0 2.6 1 2.6 2.5-.1 1.4-1.2 2.5-2.7 2.5zm19.2 16.1h-4.7v-7.6c0-2-.7-3.3-2.3-3.3-1.3 0-2.1.9-2.5 1.7-.1.3-.1.8-.1 1.2v7.9h-4.7v-14.1h4.7v2c.7-.9 1.7-2.3 4.3-2.3 3.1 0 5.5 2.1 5.5 6.4v8.2h-.2z"></path></symbol>
+
+  <symbol id="twitter" viewBox="0 1 24 23"><path d="M21.5 7.6v.6c0 6.6-5 14.1-14 14.1-2.8 0-5.4-.8-7.6-2.2l1.2.1c2.3 0 4.4-.8 6.1-2.1-2.2 0-4-1.5-4.6-3.4.3.1.6.1.9.1.5 0 .9-.1 1.3-.2-2.1-.6-3.8-2.6-3.8-5 .7.4 1.4.6 2.2.6-1.3-.9-2.2-2.4-2.2-4.1 0-.9.2-1.8.7-2.5 2.4 3 6.1 5 10.2 5.2-.1-.4-.1-.7-.1-1.1 0-2.7 2.2-5 4.9-5 1.4 0 2.7.6 3.6 1.6 1-.3 2.1-.7 3-1.3-.4 1.2-1.1 2.1-2.2 2.7 1-.1 1.9-.4 2.8-.8-.6 1.1-1.4 2-2.4 2.7z"></path></symbol>
+
+  <symbol id="youtube" viewBox="0 0 24 24"><path d="M23.6 6.3c-.3-1.2-1.4-2.2-2.6-2.3-3-.3-6-.3-9-.3s-6 0-9 .3c-1.2.1-2.3 1.1-2.6 2.3-.4 1.8-.4 3.8-.4 5.7 0 1.9 0 3.9.4 5.7.3 1.2 1.4 2.2 2.6 2.3 3 .3 6 .3 9 .3s6 0 9-.3c1.3-.1 2.3-1.1 2.6-2.4.4-1.7.4-3.7.4-5.6 0-1.9 0-3.9-.4-5.7zm-14.1 9v-6.6l6.5 3.3-6.5 3.3z"></path></symbol>
+
+</svg>
+
+<!-- Navigation -->
+<nav class="side ">
+  <div class="navigation default">
+    <ul></ul>
+  </div>
+</nav>
+
+<!-- Slide 1 (#03) -->
+
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-7-12">
+          <div class="fix-4-12 margin-bottom-0">
+            <svg height="500" width="500" class="wide ae-1 fromCenter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
+          </div>
+          <div class="fix-6-12">
+            <p class="large cropBottom ae-1"><span class="opacity-8"><strong>LIT LAB | FINAL PROJECT</strong>
+                <br> Choate Data Incident Reporting Database
+</span></p>
+           <a class="button rounded white margin-top-6 ae-7 fromCenter nextSlide">Start</a></div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/background4.jpg)"></div>
+</section>
+
+<!-- Slide 2 (#10) -->
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-7-12">
+          <h1 class="smaller margin-bottom-2 ae-2">The Deliverable</h1>
+          <p class="large ae-2"><span class="opacity-8">An Afterpattern app designed for <a href="https://www.choate.com/">Choate</a> that provides the firm's attorneys with a searchable database of Massachusetts data breach law and can determine if a data breach qualifies as reportable.
+</span></p>
+           <a class="arrow-down white nextSlide"></a></div>
+        </div>  
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/background8.jpg)"></div>
+</section>
+
+<!-- How Tos -->
+
+<section data-name="projects" class="slide fade-6 kenBurns">
+        <div class="content">
+                <div class="container">
+                        <div class="wrap">
+                                <div class="fix-12-12">
+                                        <h1 class="smaller margin-bottom-6 ae-1">Under the Hood</h1>
+                                        <p large>  The app combines three components to power its usability: </p>
+                                        <ul class="flex flex-85 fixedSpaces equal ae-2 fromCenter" data-equal-collapse-width="767">
+                                                <li class="col-4-12 col-tablet-1-2 col-phablet-1-1 margin-bottom-2 ae-3">
+                                                        <div class="pad">
+                                                                <h2 class="large ae-5">Guided Interview </h2>
+                                                                <div class="margin-top-3 margin-bottom-3 equalElement ae-6">
+                                                                        <ul class="p small">
+                                                                            <p class="opacity-8"><i class="material-icons middle shift-up-2">check</i> <b>Asks users a series of questions to determine if a data breach needs reporting</b></p>
+                                                                            <p class="opacity-8"><i class="material-icons middle shift-up-2">check</i> <b>Directs users to the MA Office of Consumer Affairs and Business Regulation reporting form</b></p>
+                                                                            <p class="opacity-8"><i class="material-icons middle shift-up-2">check</i> <b>Directs users to the MA Office of Attorney General reporting form</b></p> 
+                                                                            <p class="opacity-8"><i class="material-icons middle shift-up-2">check</i><b>Optional page to collect information required for reporting</b>
+                                                                            </p>   
+                                                            
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                </li>
+                                                <li class="col-4-12 col-tablet-1-2 col-phablet-1-1 ae-4">
+                                                        <div class="pad">
+                                                                <h2 class="large ae-5">Document Assembly</h2>                          
+                                                                <div class="ae-6">
+                                                                </div>
+                                                                <div class="margin-top-3 margin-bottom-3 equalElement ae-7">
+                                                                        <ul class="p small">
+                                                                            <p class="opacity-8"><i class="material-icons middle shift-up-2">check</i> <b>Populates firm-branded memorandum with relevant statutory definitions and applicable statutes</b></p>
+                                                                            <p class="opacity-8"><i class="material-icons middle shift-up-2">check</i> <b>Populates summary of data breach </b></p>
+                                                                            <p class="opacity-8"><i class="material-icons middle shift-up-2">check</i> <b>Populates the MA Office of Attorney General template reporting letter with collected user input<br><i>(prototyping - coming soon!)</b></p>
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                </li>
+                                                <li class="col-4-12 col-tablet-1-2 col-phablet-1-1 ae-4">
+                                                        <div class="pad">
+                                                                <h2 class="large ae-5">Custom Database</h2>
+                                                                <h3 class="large ae-5">your website</h3>                             
+                                                                <div class="ae-6">
+                                                                </div>
+                                                                <div class="margin-top-3 margin-bottom-3 equalElement ae-7">
+                                                                        <ul class="p small">
+                                                                                <li>Using SEO plug-ins</li>
+                                                                                <li>Integrating APIs</li>
+                                                                                <li>Establishing a social media presence</li>
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+        </div>
+  <div class="background" style="background-image:url(assets/img/background/background6.jpg)"></div>
+</section>
+
+<!-- Slide 3 (#10) -->
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-7-12">
+          <h1 class="smaller margin-bottom-2 ae-1">Take it step-by-step</h1>
+          <p class="large ae-2"><span class="opacity-8">We'll help you hit the ground running on creating your web presence from start to finish. Whether you need help building a website, designing a logo, or automating your workflow, we have a<br><strong>how-to guide</strong> that can help you every step of the way.</span></p>
+        </div>  
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/background10.jpg)"></div>
+</section>
+
+<!-- use if you need to reference checkmarks
+
+<section class="slide fromLeft whiteSlide" data-name="projects" data-title="Our Projects">
+        <div class="content">
+                <div class="container">
+                        <div class="wrap">
+                                <div class="fix-12-12">
+                                        <ul class="flex reverse">
+                                                <li class="col-6-12 left cell-32">
+                                                        
+                                                        <h2 class="smaller margin-bottom-2 ae-2">Get started on your next project</h2>
+                                                        <p class="ae-3 large light margin-bottom-3"><span class="opacity-8">Blacksun provides an attack surface management platform that helps keep your environment safe. On top of that product, we also have a cutting edge Vulnerability Assessment tool that automates the reporting process.</span></p>
+                                                        <ul class="items-32">
+                                                                <li class="fix-5-12 toLeft ae-4 margin-bottom-3">
+                                                                        <h5 class="small margin-bottom-3">We can provide target based reports of the following</h5>
+                                                                        <p class="opacity-8"><i class="material-icons middle shift-up-2">check_circle</i> Ports and Services Vulnerability Scan</p>
+                                                                        <p class="opacity-8"><i class="material-icons middle shift-up-2">check_circle</i> OS Vulnerability Scan</p>
+                                                                        <p class="opacity-8"><i class="material-icons middle shift-up-2">check_circle</i> Virus Check</p>
+                                                                        <p class="opacity-8"><i class="material-icons middle shift-up-2">check_circle</i> Vulnerability Assessment</p>
+                                                                </li>
+                                                                <li class="fix-5-12 toLeft ae-5 margin-bottom-3">
+                                                                        <h5 class="small margin-bottom-3">Reports can be made for resellers as well</h5>
+                                                                        <p class="opacity-8"><i class="material-icons middle shift-up-2">check_circle</i> White labeled</p>
+                                                                        <p class="opacity-8"><i class="material-icons middle shift-up-2">check_circle</i> Automated to be sent to customer</p>
+                                                                </li>
+                                                        </ul>
+                                                </li>
+                                                <li class="col-6-12 left ae-1"> <img class="ipad-31 margin-bottom-tablet-1" src="assets/img/laptop.png" width="1080" alt="Report Images" data-action="zoom"/> </li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</section> 
+
+-->
+
+
+<!-- Contact Form 
+<section data-name="contact-me" class="slide fade-4 scenic">
+<div class="content">
+<div class="container">
+<div class="wrap">
+<h2 class="ae-3 bold">Contact me</h2>
+<p class="ae-2 big light"><span class="opacity-8">Tell me how I can help and I will reach out within 24
+hours or email me at <span class="link"><a href="mailto:beantownbritt@gmail.com?subject=Prosody%20Law%20contact%20form" class="bold text-pink" title="Email me">beantownbritt@gmail.com</a></span>
+</span>
+</p>
+<div class="fix-5-12 margin-top-3 form-5">
+<div class="pad shadow ae-3">
+<form action="ajax-email.php" id="contact-form" method="post" class="slides-form wide left" data-ajax-form="true">
+<ul class="grid noSpaces">
+<li class="col-6-12">
+<label for="name55">
+<span class="hidden">Your name</span>
+</label>
+<input class="stroke wide ae-4" id="name55" type="text" name="name" placeholder="Name" required />
+</li>
+<li class="col-6-12">
+<label for="email55">
+<span class="hidden">Your email</span>
+</label>
+<input class="stroke wide ae-4" id="email55" type="email" name="email" placeholder="Your email" required />
+</li>
+<li class="col-6-12">
+<label for="subject55">
+<span class="hidden">Subject</span>
+</label>
+<select class="stroke wide ae-5" style="max-width: 100%" id="subject55" name="subject">
+<option selected disabled>Regarding</option>
+<option value="Website">Website</option>
+<option value="Redesign">Website Redesign</option>
+<option value="Design">Design</option>
+<option value="Marketing">Marketing</option>
+</select>
+</li>
+</ul>
+<label class="left opacity-5" for="message55">
+<span class="uppercase boldest smallest hidden">Your message</span>
+</label>
+<textarea class="left wide ae-7" id="message55" name="message" placeholder="Detailed message (optional)"></textarea>
+<div class="checkbox ae-8">
+<label><input type="checkbox" id="permission" name="permission" value="1" required><span class="element"></span>I give you permission to contact&nbsp;me</label>
+</div>
+<button type="submit" name="send" id="send" class="button wide gray gradient disableClick ae-10 margin-top-2 cropBottom" data-success-text="Sent! I'll reply&nbsp;soon!" data-success-class="message-sent">Send
+message</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="background" style="background-image:url(assets/img/background/img-55.jpg)"></div>
+</section>
+-->
+
+<!-- Panel Bottom #02 -->
+
+<nav class="panel bottom forceMobileView">
+  <div class="sections desktop">
+    <div class="left">
+    </div>
+    <div class="center">
+      <ul class="menu uppercase">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#projects">Our Projects</a></li>
+      </ul>
+    </div>
+    <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span></div>
+  </div>
+  <div class="sections compact hidden">
+    <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span></div>
+  </div>
+</nav>
+
+
+<!-- jQuery 3.5.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Compressed Scripts -->
+    <script src="js/slides.min.js?521351" type="text/javascript"></script>
+     
+</body>
+</html>
